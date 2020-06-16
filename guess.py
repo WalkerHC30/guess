@@ -1,5 +1,8 @@
 import random
-r = random.randint(1, 100)
+s = int(input("請決定開始值: "))
+e = int(input("請決定結束值: "))
+
+r = random.randint(s, e) # 開始值務必比結束值小 不然會輸錯!
 count = 0
 while True:
     count += 1
